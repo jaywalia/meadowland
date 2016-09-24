@@ -1,0 +1,17 @@
+{
+  "name": "meadowland",
+  "version": "1.0.0",
+  "description": "meadowland : travel site",
+  "main": "meadowland.js",
+  "scripts": {
+    "postinstall": "bower install && grunt build",
+    "start": "node meadowland.js",
+    "test": "node ./node_modules/jasmine/bin/jasmine.js"
+  },
+  "author": "jw",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.14.0",
+    "express-handlebars": "3.0.0"
+  }
+}
